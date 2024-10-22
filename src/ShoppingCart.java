@@ -5,7 +5,6 @@ public class ShoppingCart {
         this.products = new Product[10];
     }
 
-
     public void calculateTotal() {
         double sum = 0;
         for (Product p : products) {
