@@ -10,6 +10,7 @@ public class ShoppingCart {
         for (Product p : products) {
             sum = sum + p.getPrice();
         }
+
         System.out.println("The total price is: " + sum);
     }
 }
